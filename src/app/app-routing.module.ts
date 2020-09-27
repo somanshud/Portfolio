@@ -11,7 +11,7 @@ const routes: Routes = [
     path:'',
     component: LandingpageComponent,
     data:{
-      title:"Tushar Gulyani | Portfolio",
+      title:"Somanshu Dhingra | Portfolio",
       metaDescription: 'Landing page'
     }
   },                  
