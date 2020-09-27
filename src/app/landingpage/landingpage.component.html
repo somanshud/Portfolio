@@ -1,0 +1,375 @@
+<div class="masthead ptop-padding text-white">
+    <section class="" id="photo-section">
+    <div id="particles-js" class="w-100 header-particles"></div>
+    <div class="container d-flex align-items-center flex-column">
+
+
+        <div class="flip-box border-0" data-aos="zoom-in"  data-aos-duration="1200" data-aos-offset="0">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="assets/images/main_pic.jpg" class="rounded-circle mx-auto d-block" alt="Tushar">
+                </div>
+                <div class="flip-box-back rounded-circle mx-auto d-block"  >
+                    <h2 class="mt-5 pt-3">Hi There</h2>
+                    <p class="mx-4 mt-3">I am passionate Full Stack Web Developer. I love to write clean and functional code.</p>
+                </div>
+            </div>
+        </div>
+        <h1 class="masthead-heading text-uppercase mb-0 mt-3 " data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">Somanshu Dhingra</h1>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1000">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">    
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Masthead Subheading-->
+        <p class="masthead-subheading font-weight-light mb-0" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease" data-aos-delay="1200">Full Stack Web Developer</p>
+    </div>
+    </section>
+
+    <!-- <section class="birthday-sec">
+      <div class="container text-center">
+        <h1 class="beforebday">Countdown To My Birthday</h1>
+        <ul class="beforebday ">
+          <li><p id="days"></p>days</li>
+          <li><p id="hours"></p>Hours</li>
+          <li><p id="minutes"></p>Minutes</li>
+          <li><p id="seconds"></p>Seconds</li>
+        </ul>
+        <ul class="afterbday">
+          <h2 class="">Happy Birthday To You!</h2>
+        </ul>
+      </div>
+    </section> -->
+
+    <section class="main-section">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-xl-2 d-lg-block d-none">
+            <div id="list-example " class="list-group left-sidebar" >       
+              <a class="list-group-item list-group-item-action active" data-target="#list-item-1" id="list-item-1" (click)="scrollToDiv('list-item-1')" ><span class="icon"><i class="fas fa-user-alt"></i></span>About</a>
+              <a class="list-group-item list-group-item-action" data-target="#list-item-2" (click)="scrollToDiv('list-item-2')"><span class="icon"><i class="fas fa-chart-line"></i></span>Experience</a>
+              <a class="list-group-item list-group-item-action" data-target="#list-item-3" (click)="scrollToDiv('list-item-3')"><span class="icon"><i class="fas fa-tasks"></i></span>Projects</a>
+              <a class="list-group-item list-group-item-action" data-target="#list-item-4" (click)="scrollToDiv('list-item-4')"><span class="icon"><i class="fas fa-cogs"></i></span>Skills</a>   
+              <a class="list-group-item list-group-item-action" data-target="#list-item-5" (click)="scrollToDiv('list-item-5')"><span class="icon"><i class="fas fa-user-graduate"></i></span>Education</a>
+              <a class="list-group-item list-group-item-action" data-target="#list-item-6" (click)="scrollToDiv('list-item-6')"><span class="icon"><i class="fas fa-star"></i></span>Awards</a>
+              <a class="list-group-item list-group-item-action" href="assets/pdf/somanshu_resume.pdf" target="_blank">	
+                <span class="icon"><i class="fas fa-file-alt"></i></span>Resume</a>
+            </div>                     
+          </div>                          
+          <div class="col-lg-9 col-xl-10" >    
+            <div>
+                <div class="skew-heading"><h4 id="list-item-1" #componentDiv data-aos="fade-right" data-aos-duration="1200">About</h4></div>
+                <section class="about mt-4 mb-5"  >
+              <p class="mb-4"  data-aos="fade-up" data-aos-duration="1400">I'm a Full stack web developer having experience in developing and designing the application arhitecture . I develop clean and functional applications. I like to code in Node js, React Js, Php , Python. I am a Data science aspirant who loves to visualize and analyise the data . </p>
+
+                  <div class="mid-square"  data-aos="zoom-in" data-aos-duration="1200">
+                    <div class="row">
+                        <div class="col-md-6"><div class="square-inner"><h4 class="text-center">{{totalcountexp}}+</h4> <p class="text-center">Years of experience</p></div></div>
+                        <div class="col-md-6"><div class="square-inner"><h4 class="text-center" >{{totalcountproject}}+</h4> <p class="text-center">Live Projects</p></div></div>
+                          </div>
+                  </div>
+                </section>
+              <div class="skew-heading"><h4 id="list-item-2" data-aos="fade-right" data-aos-duration="1200">Coroporate Experience</h4></div>
+                <section class="experience">
+                       <div class="row">
+                            <div class="col-lg-4">
+                                <div class="outer-box"   data-aos="fade-up"  data-aos-duration="1200">
+                                    <div class="top-sec-card ">
+
+                                        <h5>Successive Technologies</h5>
+                                        
+                                    </div>
+                                    <div class="lower-sec-card">
+                                        <h5>Full stack Developer</h5>
+                                        <p>Working on both backend and frontend Stack and Cloud Servers includes GCP,AWS</p>
+                                        <h6 class="date">2020-Present | Noida</h6>
+                                      </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                    <div class="outer-box"   data-aos="fade-up"  data-aos-duration="1200">
+                                        <div class="top-sec-card">
+                                            <h5>Impinge Soltions Private limited</h5>
+                                            
+                                        </div>
+                                        <div class="lower-sec-card">
+                                            <h5>Software Engineer</h5>
+                                            <p>Worked on Solving complex performance problem and architectutal challenges and integration of data storage solutions</p>
+                                            <h6 class="date">2017-2019 | Chandigarh</h6>
+                                          </div>
+    
+                                    </div>
+                            </div>
+                            <div class="col-lg-4">
+                              <div class="outer-box"   data-aos="fade-up"  data-aos-duration="1200">
+                                  <div class="top-sec-card ">
+
+                                      <h5>Promatics Technologies India pvt. ltd</h5>
+                                      
+                                  </div>
+                                  <div class="lower-sec-card">
+                                      <h5>Associate Web developer</h5>
+                                      <p>Learned web development technologies includes HTML,css , bootsrap ./p>
+                                      <h6 class="date">2016-2017 | Punjab</h6>
+                                    </div>
+
+                              </div>
+                          </div>
+                       </div>
+                </section>
+
+
+              <div class="skew-heading"><h4 id="list-item-3" data-aos="fade-right" data-aos-duration="1200">Projects</h4></div>
+              <section class="projects my-4">
+                  <div class="row">
+                        <div class="col-md-6 col-lg-6 col-xl-4">
+                                <div class="card"   data-aos="fade-up"  data-aos-duration="1200">
+                                        <a href="https://naukriwaala.com/" target="_blank"><img src="assets/images/5.jpg" class="card-img-top" alt="cardimg"></a>
+                                        <div class="card-body">
+                                                <h5>NaukriWaala</h5>
+                                          <p class="card-text">Government job focussed web app where users can explore the new Govt. Jobs, Results, Admit cards.</p>
+                                        </div>
+                                </div>
+                          </div>
+                        <div class="col-md-6 col-lg-6 col-xl-4" >
+                                <div class="card"   data-aos="fade-up"  data-aos-duration="1200">
+                                  <a href="https://bemiguest.com/" target="_blank"><img src="assets/images/venus.png" class="card-img-top" alt="cardimg"></a>
+                                        <div class="card-body">
+                                            <h5>BeMiGuest</h5>
+                                          <p class="card-text">BeMiGuest helps you book more than just homes. Need a music room? A web app developed in Laravel with Pdfviewer, creative animations and Interactive Maps.</p>
+                                        </div>
+                                </div>
+                          </div>
+                   
+                          <div class="col-md-6 col-lg-6 col-xl-4">
+                                <div class="card"   data-aos="fade-up"  data-aos-duration="1200">
+                                  <a href="https:payments.alphafortress.com" target="_blank"> <img src="assets/images/1.jpg" class="card-img-top" alt="cardimg"></a>
+                                        <div class="card-body">
+                                        <h5>Payouts</h5>
+                                        <p class="card-text">Now do more than a trnsaction in Ghana and Nigeria. A fintech based application developed in Laravel and Javascript for handling large Payouts </p>
+                                        </div>
+                                </div>
+                          </div>    
+                          <div class="col-md-6 col-lg-6 col-xl-4">
+                                <div class="card"   data-aos="fade-up"  data-aos-duration="1200">
+                                  <a href="https://thehopeline.com" target="_blank"><img src="assets/images/2.jpg" class="card-img-top" alt="cardimg"></a>
+                                        <div class="card-body">
+                                                <h5>The Hopeline </h5>
+                                          <p class="card-text">A web donation app developed for the People who suffers mental health and other social issues.(NGO ) </p>
+                                        </div>
+                                </div>
+                          </div>
+                          <div class="col-md-6 col-lg-6 col-xl-4">
+                                <div class="card"   data-aos="fade-up"  data-aos-duration="1200">
+                                  <a href="https://www.yo-kart.com/" target="_blank"><img src="assets/images/yo.jpg" class="card-img-top" alt="cardimg"></a>
+                                        <div class="card-body">
+                                            <h5>YO-kart</h5>
+                                          <p class="card-text">A Multi vendor store handle huge product and huge sclalablity </p>
+                                        </div>
+                                </div>
+                          </div>
+                   
+                          <div class="col-md-6 col-lg-6 col-xl-4">
+                                <div class="card"  data-aos="fade-up"  data-aos-duration="1200" >
+                                  <a href="http://www.venuserp.com/" target="_blank"><img src="assets/images/4.jpg" class="card-img-top" alt="cardimg"></a>
+                                        <div class="card-body">
+                                        <h5>Enjoy Innovations</h5>
+                                        <p class="card-text">A web app developed to showcase the company new headlines, show thier services and scope.</p>
+                                        </div>
+                                </div>
+                          </div>    
+                          
+        </div>
+              </section>
+             
+               <div class="skew-heading"><h4 id="list-item-4" data-aos="fade-right" data-aos-duration="1200">Skills</h4></div>
+               <section class="skills my-4"  >
+                 <div class="row">
+                   <div class="col-md-2"  >
+                      <p data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200">Laravel</p>
+                   </div>
+                   <div class="col-md-10" >
+                      <div class="progress" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200">
+                 
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                   </div>
+
+                 </div>
+                 <div class="row">
+                    <div class="col-md-2">
+                       <p data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">React js</p>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="progress" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">
+                   
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                     </div>
+ 
+                  </div>
+                  <div class="row">
+                      <div class="col-md-2">
+                         <p data-aos="fade-up" data-aos-easing="ease" data-aos-delay="600">Node js</p>
+                      </div>
+                      <div class="col-md-10">
+                          <div class="progress" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="600">
+                              <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                       </div>
+   
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                           <p data-aos="fade-up" data-aos-easing="ease" data-aos-delay="700">PHP</p>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="progress" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 80" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                         </div>
+     
+                      </div>
+                      <div class="row">
+                        <div class="col-md-2">
+                           <p data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">Python</p>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="progress" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                         </div>
+     
+                      </div>
+                      <div class="row">
+                          <div class="col-md-2">
+                             <p data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1000">Bootstrap</p>
+                          </div>
+                          <div class="col-md-10">
+                              <div class="progress" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1000">
+                                  <div class="progress-bar bg-dark" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                           </div>
+       
+                        </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                           <p data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1200">HTML</p>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="progress" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1200">
+                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                         </div>
+     
+                      </div>
+                      <div class="row">
+                          <div class="col-md-2">
+                             <p data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1400">CSS</p>
+                          </div>
+                          <div class="col-md-10">
+                              <div class="progress" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1400">
+                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                           </div>
+       
+                        </div>
+                        
+                          
+              </section>
+              <div class="skew-heading"><h4 id="list-item-5" data-aos="fade-right" data-aos-duration="1200">Education</h4></div>
+             <section class="education my-4">
+                 <div class="accordion" id="accordionExample">
+  <div class="card"  data-aos="fade-up"  data-aos-duration="1200" >
+    <div class="card-header collapsed" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left" type="button" >
+          Bachelor of Technology (Computer science)
+        </button>
+      </h2>       
+    </div>          
+                    
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        I have completed Bachelor of Technology (B-Tech)  from Kurukshetra University, Kurukshetra with A grade.
+      </div>
+    </div>
+  </div>
+  <div class="card "  data-aos="fade-up"  data-aos-duration="1200" >
+    <div class="card-header collapsed" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left " type="button" >
+         High School
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+          I have  completed My High school education from St.mary Convent Sr. sec , Panipat
+         </div>
+    </div>
+  </div>
+  <!-- <div class="card"  data-aos="fade-up"  data-aos-duration="1200" >
+    <div class="card-header collapsed" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left " type="button" >
+          10th    
+        </button> 
+      </h2>     
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        I have completed 12th from Sanatan Dharam Vidya Mandir in 2013.
+         </div>
+    </div>
+  </div> -->
+</div>
+             </section>
+             <div class="skew-heading"><h4 id="list-item-6" data-aos="fade-right" data-aos-duration="1200">Awards</h4></div>
+             <section class="experience">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="outer-box" data-aos="fade-up"  data-aos-duration="1200" >
+                            <div class="top-sec-card">
+                                <h5>Impinge Solutions</h5>
+                                
+                            </div>
+                            <div class="lower-sec-card">
+                                
+                                <p>Recieved appreciation from the client for meeting the requirements of the project and put efforts for the project, completed the project well before time.</p>
+                                <h6 class="date">2019</h6>
+                              </div>
+
+                        </div>
+                    </div>
+                     <div class="col-lg-6">
+                         <div class="outer-box"  data-aos="fade-up"  data-aos-duration="1200" >
+                             <div class="top-sec-card ">
+
+                                 <h5>Impinge Solutions</h5>
+                                 
+                             </div>
+                             <div class="lower-sec-card">
+                                
+                                 <p>Recieved appreciation and award from the client for the <a><b>thehopeline.com</b></a> website and for the timely completion of the work with full support.</p>
+                                 <h6 class="date">2018</h6>
+                               </div>
+
+                         </div>
+                     </div>
+                     
+                </div>
+         </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</div>
+
+
+ 

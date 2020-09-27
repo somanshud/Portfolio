@@ -1,0 +1,449 @@
+.red {
+    color:red;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    top: 65%;
+    z-index: 9999999999999;
+}
+
+.spinner {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #f3f3f3;
+    border-top: 3px solid #394b75;
+    border-radius: 100%;
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .masthead .masthead-heading {
+    font-size: 40px;
+    line-height: 3.5rem;
+}
+.main-section .skew-heading{
+
+    color:#ffffff;
+    clip-path: polygon(1.5% 0%, 100% 0%, 100% 100%, 0% 100%);
+    padding: 25px 0px;
+    margin-right: -15px;
+    margin-left: -30px;
+    padding-left: 30px;
+    margin-bottom: 16px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7378d2+1,2989d8+50,207cca+50,4b8da4+100 */
+background: #7378d2; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #7378d2 1%, #2989d8 50%, #207cca 50%, #4b8da4 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #7378d2 1%,#2989d8 50%,#207cca 50%,#4b8da4 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #7378d2 1%,#2989d8 50%,#207cca 50%,#4b8da4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7378d2', endColorstr='#4b8da4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.experience .outer-box{
+    box-shadow: 0px 2px 35px -4px rgb(207,182,207,1);
+    padding: 20px 50px;
+    margin: 55px 40px;
+    min-height: 276px;
+}
+.experience .outer-box .top-sec-card{
+    border-bottom:1px solid #d8d7d7;
+    padding: 20px 0px;
+}
+.experience .outer-box .top-sec-card h5{
+    font-size: 22px;
+    color:#3c3c3c;
+    line-height: 26px;
+}
+.experience .outer-box .lower-sec-card h5{
+    font-size: 18px;
+    color: #333333;
+}
+.experience .outer-box .lower-sec-card h6{
+    color:#b1abab;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
+.experience .outer-box .lower-sec-card{
+    color:#b1abab;
+    padding-top: 20px;
+}
+.experience .outer-box .lower-sec-card p{
+    color:#b1abab;
+}
+.projects{
+    padding: 0 40px;
+}
+.btn-link:after{
+    content: "\2212";
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    
+    -webkit-transition: all 400ms ease-in;
+	transition: all 400ms ease-in; 
+}
+
+.collapsed .btn-link:after {
+    content: '\002B';
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    
+    -webkit-transition: all 400ms ease-in;
+	transition: all 400ms ease-in; 
+  }
+  .about .mid-square h4{
+    font-size: 75px;
+    color:#ffffff;
+  }
+  .about .mid-square p{
+      margin-top: 30px;
+    font-size: 24px;
+    color:#ffffff;
+  }
+
+  .education, .skills {
+     padding: 0 80px; 
+  }
+
+  .about .mid-square .square-inner{
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    background-color: #37378d;*/
+    padding: 85px 0px;
+    margin: 0px 80px; 
+  }
+  .education .btn:focus, .education .btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+ .education .card{
+     margin-bottom: 20px;
+     border: 0;
+ }
+ .education .card h2 button{
+    color: #ffffff !important;
+   }
+   .education .card .card-header.collapsed h2 button{
+    color: #444444 !important;
+   }
+   .education .btn-link:hover,.education .btn-link:focus{
+       text-decoration: none;
+   }
+   .education .card .card-body{
+       margin-top: 10px;
+       border: 1px solid #ececec;
+   }
+   .education .card  .card-header.collapsed {
+    background-color: #dcdcdc;
+   }
+   .education .card  .card-header{
+    background-color: rgb(111 111 188);
+    
+    -webkit-transition: all 400ms ease-in;
+	transition: all 400ms ease-in; 
+   }
+   
+ .education .card h2 button.collapsed{
+ color: #000000 !important;
+}
+.skills .progress{
+    margin:10px 0;
+}
+
+.projects .card{    
+    box-shadow: 0px 2px 35px -4px rgb(207,182,207,1);
+}
+
+.projects .card img{
+    padding: 5px;     
+}
+
+.projects h5{
+    color:#000000;
+    font-size: 20px;
+}
+.projects p{
+    color:#b1abab !important;
+}
+.projects .card{
+    margin-bottom:30px;
+    min-height: 322px; 
+}
+.main-section .skew-heading h4{
+    margin-bottom: 0;
+    font-size: 25px;
+    font-style: italic;
+}
+.left-sidebar{
+    padding-top: 30px;
+    margin-left:-15px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;
+    height: calc(100vh - 100px);
+    max-height: calc(100vh - 100px);
+    margin-bottom: 100px;
+    overflow: hidden;
+    contain: strict;
+    border-radius: 0;
+    background-color: #f7f7f7;
+}
+
+.main-section{
+    background-color: #ffffff;
+    color:black;
+}
+
+.scrollspy-example {
+    position: relative;
+    height: 200px;
+    margin-top: .5rem;
+    overflow: auto;
+}
+.left-sidebar .list-group-item{
+    padding: 10px 0 12px;
+    border:0;
+    background-color: #f7f7f7;
+    color:#000000;
+    margin-bottom: 12px;
+    
+}
+.left-sidebar .list-group-item .icon{   
+    padding: 0 15px;
+    padding-right: 50px;
+}
+.left-sidebar a{
+    cursor: pointer;
+}
+.main-section p {
+    color:#4a4949;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+
+.left-sidebar .list-group-item.active{
+    border-left: 4px solid #25274d;
+    background-color: #d5d7ff;
+    color:#1e2799;
+    text-decoration: underline;
+    
+}
+
+.bg-white{
+    background-color: #ffffff;
+}
+
+.birthday-sec{
+    color: #333;
+    margin: 0 auto;
+    padding: 0.5rem;
+    background-color: #060c13c9;
+}
+.birthday-sec ul{
+    padding-left: 0;
+}
+.birthday-sec h1{
+    font-size: 2em;
+    margin: .67em 0;
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.birthday-sec h2{
+    font-size: 2em;
+    margin: .67em 0;
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.birthday-sec ul li{
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.birthday-sec ul li p{
+display: block;
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    padding: 20px;
+
+}
+
+
+.masthead .masthead-subheading {
+    font-size: 1.5rem;
+}
+
+.masthead {
+    /* padding-bottom: 6rem; */
+    background-color: #25274D !important; 
+    /* background: url(../../assets/images/bg-pattern.png),#5d446a; */
+}
+
+
+
+
+
+
+
+.masthead .masthead-avatar {
+    width: 15rem;
+    
+}
+.card-photo .cardshadow {
+    position: relative;
+    background-color: transparent !important;
+}
+.card-photo .card-img-top {
+	box-shadow: 0px 0px 20px #081f4b;
+	               
+}
+
+.mid-square{
+    background: url(./../../assets/images/background-new.jpg);
+}
+
+.lip-box-inner:hover {
+    box-shadow: 0px 0px 40px #020f26;
+    -webkit-transition: all 400ms ease-in;
+	transition: all 400ms ease-in; 
+}
+
+.masthead #particles-js {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.flip-box-front img {
+    width: 100%;
+    transition: all 400ms ease-in;
+    box-shadow: 0px 0px 30px #111213;
+
+}
+
+.flip-box {
+    background-color: transparent;
+    width: 312px;
+    height: 321px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: transparent;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-color: #07111d;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  @media only screen and (max-width: 767px){
+    .about .mid-square .square-inner{
+        padding: 0px 0px;
+    }
+    .about .mid-square .square-inner{
+        margin: 40px 194px; 
+    }
+    .education , .skills{
+        padding: 0 20px; 
+    }
+  }
+                                    
+@media only screen and (max-width: 560px){
+    .birthday-sec ul li p{
+        font-size: 2.5rem;
+        padding: 7px;
+    }
+    .about .mid-square .square-inner{
+        padding: 25px 0px;
+    }
+    .about .mid-square .square-inner{
+        margin: 20px; 
+    }
+    .masthead .masthead-heading {
+      font-size: 30px;      
+    }
+    .experience .outer-box {
+        box-shadow: 0px 0px 20px #bfbcbc;
+        padding: 20px;
+        margin: 30px 0px;
+    }
+    .projects{
+        padding: 0;
+    }
+    .education , .skills{
+        padding: 0; 
+    }
+  }

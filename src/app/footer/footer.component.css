@@ -1,0 +1,42 @@
+.footer-text{
+    padding:20px;
+    text-align:center;
+    color:#ffffff;
+}
+
+footer{
+    background-color: #07111d;
+}
+
+.footer-text span{
+color:#00fff3;
+
+}
+
+.top-footer{          
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+    color: #fff;
+  }
+
+ 
+
+.btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+.btn-social i:hover{
+    color:black;
+}
+
+.btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+  }
+  .btn-outline-light:hover {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+  }
+ 

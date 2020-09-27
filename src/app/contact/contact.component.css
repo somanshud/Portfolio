@@ -1,0 +1,59 @@
+#overlay {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    top: 65%;
+    z-index: 9999999999999;
+}
+
+.spinner {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #f3f3f3;
+    border-top: 3px solid #394b75;
+    border-radius: 100%;
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+  .page-section-heading {
+    font-size: 3rem;
+    line-height: 2.5rem;
+}
+.contact-section{
+    margin: 80px 0px;
+    padding: 80px 0;
+}
+.contact-section a{
+    color: #212529;
+}
+.contact-section a:hover{
+    color: #394b75;
+}
+
+@media (max-width: 560px){
+    .page-section-heading {
+        font-size: 32px;  
+    }
+  }
+

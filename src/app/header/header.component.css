@@ -1,0 +1,87 @@
+.main-nav{
+    padding: 20px 10px;
+    background-color: #07111d !important;
+    position: relative;
+   position: fixed;  
+    top: 0vh;
+    right: 0;
+    left: 0;
+    z-index: 1030;                          
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    width: 100vw;
+  }     
+
+  .main-nav .navcollapse .main-navbar li a{
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 0.5rem;  
+    position:relative; 
+    padding-bottom: 7px;
+  }
+
+  .main-nav .navcollapse .main-navbar li a:hover{
+    color: #1abc9c;
+    /* background-color:  #1abc9c; */
+    
+  }
+  .main-nav .navbar-toggler{
+    background-color:  #1abc9c !important;
+    text-shadow: 0 0 black;
+    font-size: 80%;
+    padding: 0.8rem;
+  }
+
+  .main-nav .navbar-toggler span{
+    color:#ffffff;
+  }
+
+  .navbar-toggler:focus,
+.navbar-toggler:active{
+  outline: 1px solid  rgba(0,0,0,.1);
+    box-shadow: none;
+}
+
+#mainNav.navbar-shrink {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+#mainNav.navbar-shrink .navbar-brand {
+  font-size: 1.5em;
+}
+
+  .main-nav .myname{
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+  .main-nav .myname a{
+    color:#ffffff;
+  }
+  .main-nav .main-navbar li.active > a:before {
+    visibility: visible;
+    width: 25px;
+}
+  .main-nav ul li a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 8px;
+    /* border: 2px solid red; */
+    background-color: #18d26e;
+    width: 0px;
+    transition: all 0.3s ease-in-out 0s;
+    color: 18d26e;
+    }
+    /* .main-nav ul .active > a:before {
+        visibility: visible;
+        width: 25px;
+    } */
+  @media (max-width: 992px){
+  
+  }
+
+  @media (max-width: 560px){
+    .main-nav .myname{
+      font-size: 24px;
+    }
+  }
